@@ -19,13 +19,13 @@
 
         <nav>
             <a href="#">Home</a>
+            <a href="#Products">Products</a>
             <a href="#About">About us</a>
             <a href="#Contact">Contact us</a>
         </nav>
 
         <div class="btns">
             <i id="Cartbtn" class="bi bi-cart4"></i>
-            <i id="Modebtn" class="bi bi-brightness-high"></i>
             <i id="MenuBtn" class="bi bi-list"></i>
         </div>
     </header>
@@ -51,8 +51,125 @@
 
     </div>
 
+    <!-- products -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js" integrity="sha512-LfB+BcvR3zBt7ebVskhSWiSbEUiG3p5EcCprkieldsKhBeR6wpnLi0VpWC2GNgVGWP2n/skO8Bx2oKNjUhXCkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <div class="Products" id="Products">
+        <div class="ProductsHeader">
+            <h1>Our Products</h1>
+
+            <label for="ProductsCategory">Select Category</label>
+            <select name="ProductsCategory" id="ProductsCategory">
+                <option value="All" selected>All</option>
+                <option value="Phones">Phones</option>
+                <option value="Headphones">Headphones</option>
+                <option value="Cameras">Cameras</option>
+                <option value="Computers">Computers</option>
+                <option value="Printers">Printers</option>
+            </select>
+        </div>
+
+
+        <div class="CardsHolder">
+            <div class="ProductCard">
+                <img src="./Images/Samsung Camera2.png" alt="Loading Image">
+                <h3 class="ProductName">Lorem ipsum dolor sit amet.</h3>
+                <h3 class="ProductCompany">Lorem, ipsum.</h3>
+                <h3 class="ProductMake">2012 Brand New</h3>
+                <h3>Ksh. <span id="ProductCost"></span>2300</h3>
+                <button class="btn" id="CartItem">Add to Cart</button>  
+            </div>
+
+            <div class="ProductCard">
+                <img src="./Images/Samsung Camera1.png" alt="Loading Image">
+                <h3 class="ProductName">Lorem ipsum dolor sit amet.</h3>
+                <h3 class="ProductCompany">Lorem, ipsum.</h3>
+                <h3 class="ProductMake">2012 Brand New</h3>
+                <h3>Ksh. <span id="ProductCost"></span>2300</h3>
+                <button class="btn" id="CartItem">Add to Cart</button>  
+            </div>
+
+            <div class="ProductCard">
+                <img src="./Images/Printer7.png" alt="Loading Image">
+                <h3 class="ProductName">Lorem ipsum dolor sit amet.</h3>
+                <h3 class="ProductCompany">Lorem, ipsum.</h3>
+                <h3 class="ProductMake">2012 Brand New</h3>
+                <h3>Ksh. <span id="ProductCost"></span>2300</h3>
+                <button class="btn" id="CartItem">Add to Cart</button>  
+            </div>
+
+            <div class="ProductCard">
+                <img src="./Images/ComputerA1.png" alt="Loading Image">
+                <h3 class="ProductName">Lorem ipsum dolor sit amet.</h3>
+                <h3 class="ProductCompany">Lorem, ipsum.</h3>
+                <h3 class="ProductMake">2012 Brand New</h3>
+                <h3>Ksh. <span id="ProductCost"></span>2300</h3>
+                <button class="btn" id="CartItem">Add to Cart</button>  
+            </div>
+
+        </div>
+
+
+        <!-- About  -->
+
+        <div class="About" id="About">
+            <h2>About RichTonics</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim atque impedit repellat, accusantium dolorem qui sint quam non cum culpa ut! Ipsum soluta explicabo ad corrupti, numquam voluptatibus? Incidunt, reiciendis. Nihil at maiores, mollitia deserunt voluptates magnam totam ab dolorum minus, hic cupiditate, ad pariatur quaerat possimus dignissimos qui deleniti.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo dicta obcaecati culpa recusandae incidunt voluptas officiis similique rem quam a consequuntur, corrupti non, aliquid fuga saepe suscipit natus quas inventore.
+            </p>
+
+            <div class="Contact" id="Contact">
+                <form name="ContactForm" id="ContactForm" method="post">
+                    <h2>Contact Form</h2>
+                    <label for="Name">Your Name</label>
+                    <input type="text" name="Name" id="Name" placeholder="Your Name(optional)">
+                    <label for="Email">Email address</label>
+                    <input type="email" name="Email" id="Email" required placeholder="qweei@abc.com">
+                    <label for="Location">Your Location (City)</label>
+                    <input type="text" name="Location" id="Location">
+                    <label for="Subject">Subject</label>
+                    <input type="tel" name="Subject" id="Subject" placeholder="Main issue eg. Pricing, mailing etc">
+                    <label for="Comment">Your Comment</label>
+                    <textarea name="Comment" id="Comment" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Submit" class="btn">
+                </form>
+
+
+                <div class="socialLinks">
+                    <h2>Visit our Social Media Pages for more</h2>
+                    <div class="Links">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-pin"></i>
+                        <i class="bi bi-envelope"></i>
+                    </div>
+
+                    <div class="footer"> 
+                        <p>Terms and Conditions</p>
+                        <p>
+                            <ol>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            </ol>
+                        </p>
+
+                        <p>	&#169 RichTonics.Com</p>
+                        <p>All rights Reserved</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js" integrity="sha512-LfB+BcvR3zBt7ebVskhSWiSbEUiG3p5EcCprkieldsKhBeR6wpnLi0VpWC2GNgVGWP2n/skO8Bx2oKNjUhXCkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script src="app.js"></script>
 </body>
 </html>
