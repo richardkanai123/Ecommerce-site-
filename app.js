@@ -4,8 +4,8 @@ const IntroText = document.querySelector(".IntroText")
 const MenuBtn = document.querySelector("#MenuBtn")
 const Nav = document.querySelector("nav")
 const CardsHolder = document.querySelector(".CardsHolder")
+const ProductsCategory = document.querySelector("#ProductsCategory")
 /// animations
-
 // anime js 1. Display Image
 // anime({
 //     targets: '.DisplayImage',
@@ -79,14 +79,11 @@ function GetProducts(){
     fetch("./products.json")
     .then(response => response.json())
     .then(data =>{
-        console.log(data);
         data.map(data=>{
-            console.log(data.name);
             // create card for each data 
             CreateProductCard(data.image, data.name, data.company, data.make, data.cost)
         })
     });
-   
 }
 
 
@@ -107,3 +104,24 @@ function CreateProductCard(Pimage, PName, PCompany, PMake, PCost){
 }
 
 // Displaying Products depending on the category the user wants
+// ProductsCategory.addEventListener('change', ()=>{
+//     console.log(ProductsCategory.value);
+//     let categoryChoice = ProductsCategory.value;
+//         fetch("./products.json")
+//         .then(response => response.json())
+//         .then(data =>{
+//             data.map(data=>{
+//             if(data.category === categoryChoice){
+//                 CardsHolder.innerHTML = "";
+//                 let FilteredData = data;
+//                 console.table(FilteredData);
+//                 // FilteredData.map(FilteredData=>{
+//                 //     // create card for each data 
+//                 //     CreateProductCard(FilteredData.image, FilteredData.name, FilteredData.company, FilteredData.make, FilteredData.cost)
+//                 // })
+//             }   
+//         })
+        
+//     });
+    
+// })
