@@ -3,6 +3,7 @@ const D_image = document.querySelector(".DisplayImage")
 const IntroText = document.querySelector(".IntroText")
 const MenuBtn = document.querySelector("#MenuBtn")
 const Nav = document.querySelector("nav")
+const CardsHolder = document.querySelector(".CardsHolder")
 /// animations
 
 // anime js 1. Display Image
@@ -21,7 +22,7 @@ const Nav = document.querySelector("nav")
 ScrollReveal().reveal('.IntroText', { delay: 500});
 ScrollReveal().reveal('.HomeBtns', { delay: 700});
 ScrollReveal().reveal('.DisplayImage', { delay: 800});
-ScrollReveal().reveal('.ProductCard', { delay: 1000});
+ScrollReveal().reveal('.ProductCard', { delay: 2000});
 ScrollReveal().reveal('form', { delay: 1000});
 ScrollReveal().reveal('.SocialLinks', { delay: 1000});
 ScrollReveal().reveal('.Links', { delay: 700});
@@ -69,3 +70,40 @@ window.onclick = function(e){
 // give header background on scrolling
 
 // window.onscroll = document.querySelector("header").classList.add("Scrolled")
+
+
+// json fetching
+
+GetProducts();
+function GetProducts(){
+    fetch("./products.json")
+    .then(response => response.json())
+    .then(data =>{
+        console.log(data);
+        data.map(data=>{
+            console.log(data.name);
+            // create card for each data 
+            CreateProductCard(data.image, data.name, data.company, data.make, data.cost)
+        })
+    });
+   
+}
+
+
+// create a product Card and appends to CardsHolder
+function CreateProductCard(Pimage, PName, PCompany, PMake, PCost){
+   let newCard = document.createElement("div")
+   newCard.classList = "ProductCard"
+   newCard.innerHTML = `
+        <img src="${Pimage}" alt="Loading Image">
+        <h3 class="ProductName">${PName}</h3>
+        <h3 class="ProductCompany">${PCompany}</h3>
+        <h3 class="ProductMake">${PMake}</h3>
+        <h3>Ksh. <span id="ProductCost"></span>${PCost}</h3>
+        <button class="btn" id="CartItem">Add to Cart</button> 
+    `;
+
+    CardsHolder.append(newCard);
+}
+
+// Displaying Products depending on the category the user wants

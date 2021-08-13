@@ -1,0 +1,396 @@
+[
+    {
+        "name":"Nikon D56 Camera",
+        "image":"./images/Camera1.png",
+        "company": "Camera",
+        "make": "CM001 Brand New",
+        "cost": "20000",
+        "category":"Camera"
+    },
+    {
+        "name":"Canon ED6s ",
+        "image":"./images/Canon Camera1.png",
+        "company": "Canon",
+        "make": "EDS 5500 Brand New",
+        "cost": "60000",
+        "category":"Camera"
+    },
+    {
+        "name":"Sony 4K",
+        "image":"./images/HdCamera1.png",
+        "company": "Sony",
+        "make": "HD4K Brand New",
+        "cost": "90000",
+        "category":"Camera"
+    },
+    {
+        "name":"Canon 4K",
+        "image":"./images/HdCamera2 Canon.png",
+        "company": "Canon",
+        "make": "4K Brand New",
+        "cost": "97000",
+        "category":"Camera"
+    },
+    {
+        "name":"Nikon Camera",
+        "image":"./images/Nikon Camera1.png",
+        "company": "Nikon",
+        "make": "D5600 Brand New",
+        "cost": "45000",
+        "category":"Camera"
+    },
+    {
+        "name":"NikonD67 Camera",
+        "image":"./images/Nikon Camera2.png",
+        "company": "Nikon",
+        "make": " Brand New",
+        "cost": "37000",
+        "category":"Camera"
+    },
+    {
+        "name":"Portable Sony Camera",
+        "image":"./images/PortableCamera1.png",
+        "company": "Sony",
+        "make": "4X Portable Brand New",
+        "cost": "17000",
+        "category":"Camera"
+    },
+    {
+        "name":"Samsung Shoot",
+        "image":"./images/Samsung Camera1.png",
+        "company": "Samsung",
+        "make": "35ES Brand New",
+        "cost": "32000",
+        "category":"Camera"
+    },
+    {
+        "name":"Sony Full HD",
+        "image":"./images/SonyCamera1.png",
+        "company": "Sony",
+        "make": "EY1 Full HD Brand New",
+        "cost": "47770",
+        "category":"Camera"
+    },
+    {
+        "name":"Canon2 Camera",
+        "image":"./images/Nikon Camera2.png",
+        "company": "Canon",
+        "make": " Brand New",
+        "cost": "37000",
+        "category":"Camera"
+    },
+    {
+        "name":"RichTonics White",
+        "image":"./images/Headphone1.png",
+        "company": "RichTonics",
+        "make": " White E1 ",
+        "cost": "1500",
+        "category":"Headphone"
+    },
+    {
+        "name":"RichTonics black with Mic",
+        "image":"./images/Headphone2.png",
+        "company": "RichTonics",
+        "make": " Black 001 Brand New",
+        "cost": "1700",
+        "category":"Headphone"
+    },
+    {
+        "name":"Bull Reds",
+        "image":"./images/Headphone3.png",
+        "company": "Bull",
+        "make": "Red,Brand New",
+        "cost": "2000",
+        "category":"Headphone"
+    },
+    {
+        "name":"Bull Yellows",
+        "image":"./images/Headphone4.png",
+        "company": "Bull",
+        "make": "Yellow Brand New",
+        "cost": "2000",
+        "category":"Headphone"
+    },
+    {
+        "name":"Bull White Super",
+        "image":"./images/Headphone5.png",
+        "company": "Bull",
+        "make": "White Brand",
+        "cost": "2100",
+        "category":"Headphone"
+    },
+    {
+        "name":"Rich Blues",
+        "image":"./images/Headphone6.png",
+        "company": "Bull",
+        "make": "Blue 03S Brand New",
+        "cost": "900",
+        "category":"Headphone"
+    },
+    {
+        "name":"Black Fire ",
+        "image":"./images/Headphone7.png",
+        "company": "Bull",
+        "make": "Black Brand New",
+        "cost": "2900",
+        "category":"Headphone"
+    },
+    {
+        "name":"Girly Cherrys",
+        "image":"./images/Headphone8.png",
+        "company": "Bull",
+        "make": "Pink Brand New",
+        "cost": "2000",
+        "category":"Headphone"
+    },
+    {
+        "name":"Fer Racers Headphones",
+        "image":"./images/Headphone9.png",
+        "company": "Bull",
+        "make": "Red Brand New",
+        "cost": "5000",
+        "category":"Headphone"
+    },
+    {
+        "name":"OrangeRiches with Mic",
+        "image":"./images/Headphone10.png",
+        "company": "Bull",
+        "make": "Orange Brand New",
+        "cost": "7000",
+        "category":"Headphone"
+    },
+    {
+        "name":"Samsung S10 2019",
+        "image":"./images/Phone1.png",
+        "company": "Samsung",
+        "make": "S10 Black Brand New",
+        "cost": "20000",
+        "category":"Phone"
+    },
+    {
+        "name":"Iphane5 mini",
+        "image":"./images/Phone2.png",
+        "company": "Apple",
+        "make": "i5 mini Black Brand New",
+        "cost": "15000",
+        "category":"Phone"
+    },
+    {
+        "name":"Iphane 5",
+        "image":"./images/Phone3.png",
+        "company": "Apple",
+        "make": "i5 Black Brand New",
+        "cost": "20000",
+        "category":"Phone"
+    },
+    {
+        "name":"Iphane 6",
+        "image":"./images/Phone4.png",
+        "company": "Apple",
+        "make": "i6 Black Brand New",
+        "cost": "23000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphane 5 Silk",
+        "image":"./images/Phone5.png",
+        "company": "Apple",
+        "make": "Silver Grey Brand New",
+        "cost": "25000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphane 5 White",
+        "image":"./images/Phone6.png",
+        "company": "Apple",
+        "make": "White-black Brand New",
+        "cost": "25000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphane 7",
+        "image":"./images/Phone7.png",
+        "company": "Apple",
+        "make": "Pink-White Brand New",
+        "cost": "27000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphane8 mini",
+        "image":"./images/Phone8.png",
+        "company": "Apple",
+        "make": "red, blue,white Brands",
+        "cost": "25000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphoneX",
+        "image":"./images/Phone9.png",
+        "company": "Apple",
+        "make": "Black,Blue,Grey White Brands",
+        "cost": "35000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphone9 mini",
+        "image":"./images/Phone10.png",
+        "company": "Apple",
+        "make": "White Brand New",
+        "cost": "35000",
+        "category":"Phone"
+    },
+    {
+        "name":"ZP Colored Printer",
+        "image":"./images/Printer1.png",
+        "company": "ZP",
+        "make": "Colored Photo Printer",
+        "cost": "10000",
+        "category":"Printer"
+    },
+    {
+        "name":"ZP Printer",
+        "image":"./images/Printer2.png",
+        "company": "ZP",
+        "make": "B&W Printer",
+        "cost": "7900",
+        "category":"Printer"
+    },
+    {
+        "name":"QP BLue Laser Printer",
+        "image":"./images/Printer3.png",
+        "company": "QP",
+        "make": "Coloured Printer",
+        "cost": "11900",
+        "category":"Printer"
+    },
+    {
+        "name":"AB Printer",
+        "image":"./images/Printer4.png",
+        "company": "AB",
+        "make": "B&W Printer",
+        "cost": "6400",
+        "category":"Printer"
+    },
+    {
+        "name":"ZPB Laser Printer",
+        "image":"./images/Printer5.png",
+        "company": "ZP",
+        "make": "Brand 091 Laser Printer",
+        "cost": "8900",
+        "category":"Printer"
+    },
+    {
+        "name":"ZP Black Printer",
+        "image":"./images/Printer6.png",
+        "company": "ZP",
+        "make": "ZPH1 Printer",
+        "cost": "7900",
+        "category":"Printer"
+    },
+        {
+        "name":"ZP Office Printer",
+        "image":"./images/Printer7.png",
+        "company": "ZP",
+        "make": "Multipurpose Printer",
+        "cost": "17000",
+        "category":"Printer"
+    },
+    {
+        "name":"Canon Photo Printer",
+        "image":"./images/Printer8.png",
+        "company": "ZP",
+        "make": "CNH2 Photo Printer",
+        "cost": "17800",
+        "category":"Printer"
+    },
+    {
+        "name":"Canon office Printer",
+        "image":"./images/Printer9.png",
+        "company": "ZP",
+        "make": "CNH2 Office Printer",
+        "cost": "19900",
+        "category":"Printer"
+    },
+    {
+        "name":"Canon-B01 Photo Printer",
+        "image":"./images/Printer10.png",
+        "company": "ZP",
+        "make": "CNH1B01 Photo Printer",
+        "cost": "9900",
+        "category":"Printer"
+    },
+    {
+        "name":"Apple Desktop",
+        "image":"./images/ComputerA1.png",
+        "company": "Apple",
+        "make": "Desktop Monitor",
+        "cost": "66900",
+        "category":"Computer"
+    },
+    {
+        "name":"Apple MiniDesktop",
+        "image":"./images/ComputerA2.png",
+        "company": "Apple",
+        "make": "Desktop Monitor",
+        "cost": "60900",
+        "category":"Computer"
+    },
+    {
+        "name":"Mackbook",
+        "image":"./images/ComputerA3.png",
+        "company": "Apple",
+        "make": "Mackbook AZ1",
+        "cost": "89900",
+        "category":"Computer"
+    },
+    {
+        "name":"Abus Gaming Computer",
+        "image":"./images/ComputerG1.png",
+        "company": "Abus",
+        "make": "8th Gen Blue Brand",
+        "cost": "55500",
+        "category":"Computer"
+    },
+    {
+        "name":"IGG Gaming Computer",
+        "image":"./images/ComputerG2.png",
+        "company": "IGG",
+        "make": "8th Gen Red Brand",
+        "cost": "56900",
+        "category":"Computer"
+    },
+    {
+        "name":"RichTonics Gaming Computer",
+        "image":"./images/ComputerG3.png",
+        "company": "Richtonics",
+        "make": "6th Gen Gaming Computer",
+        "cost": "44999",
+        "category":"Computer"
+    },
+    {
+        "name":"RichTonicsHC Gaming Computer",
+        "image":"./images/ComputerG4.png",
+        "company": "Richtonics",
+        "make": "6th Gen GamingHC Computer",
+        "cost": "47999",
+        "category":"Computer"
+    },
+    {
+        "name":"RichTonicsRD Gaming Computer",
+        "image":"./images/ComputerG5.png",
+        "company": "Richtonics",
+        "make": "6th Gen Red Gaming Computer",
+        "cost": "41999",
+        "category":"Computer"
+    },
+    {
+        "name":"RichTonics Water Cooled Computer",
+        "image":"./images/ComputerG6.png",
+        "company": "Richtonics",
+        "make": "9th Gen UltraGaming Computer",
+        "cost": "74999",
+        "category":"Computer"
+    }
+
+    
+]
