@@ -1,0 +1,82 @@
+[
+    {
+        "name":"ZP Colored Printer",
+        "image":"Images/Printer1.png",
+        "company": "ZP",
+        "make": "Colored Photo Printer",
+        "cost": "10000",
+        "category":"Printer"
+    },
+    {
+        "name":"ZP Printer",
+        "image":"Images/Printer2.png",
+        "company": "ZP",
+        "make": "B&W Printer",
+        "cost": "7900",
+        "category":"Printer"
+    },
+    {
+        "name":"QP BLue Laser Printer",
+        "image":"Images/Printer3.png",
+        "company": "QP",
+        "make": "Coloured Printer",
+        "cost": "11900",
+        "category":"Printer"
+    },
+    {
+        "name":"AB Printer",
+        "image":"Images/Printer4.png",
+        "company": "AB",
+        "make": "B&W Printer",
+        "cost": "6400",
+        "category":"Printer"
+    },
+    {
+        "name":"ZPB Laser Printer",
+        "image":"Images/Printer5.png",
+        "company": "ZP",
+        "make": "Brand 091 Laser Printer",
+        "cost": "8900",
+        "category":"Printer"
+    },
+    {
+        "name":"ZP Black Printer",
+        "image":"Images/Printer6.png",
+        "company": "ZP",
+        "make": "ZPH1 Printer",
+        "cost": "7900",
+        "category":"Printer"
+    },
+        {
+        "name":"ZP Office Printer",
+        "image":"Images/Printer7.png",
+        "company": "ZP",
+        "make": "Multipurpose Printer",
+        "cost": "17000",
+        "category":"Printer"
+    },
+    {
+        "name":"Canon Photo Printer",
+        "image":"Images/Printer8.png",
+        "company": "ZP",
+        "make": "CNH2 Photo Printer",
+        "cost": "17800",
+        "category":"Printer"
+    },
+    {
+        "name":"Canon office Printer",
+        "image":"Images/Printer9.png",
+        "company": "ZP",
+        "make": "CNH2 Office Printer",
+        "cost": "19900",
+        "category":"Printer"
+    },
+    {
+        "name":"Canon-B01 Photo Printer",
+        "image":"Images/Printer10.png",
+        "company": "ZP",
+        "make": "CNH1B01 Photo Printer",
+        "cost": "9900",
+        "category":"Printer"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "name":"Samsung S10 2019",
+        "image":"Images/Phone1.png",
+        "company": "Samsung",
+        "make": "S10 Black Brand New",
+        "cost": "20000",
+        "category":"Phone"
+    },
+    {
+        "name":"Iphane5 mini",
+        "image":"Images/Phone2.png",
+        "company": "Apple",
+        "make": "i5 mini Black Brand New",
+        "cost": "15000",
+        "category":"Phone"
+    },
+    {
+        "name":"Iphane 5",
+        "image":"Images/Phone3.png",
+        "company": "Apple",
+        "make": "i5 Black Brand New",
+        "cost": "20000",
+        "category":"Phone"
+    },
+    {
+        "name":"Iphane 6",
+        "image":"Images/Phone4.png",
+        "company": "Apple",
+        "make": "i6 Black Brand New",
+        "cost": "23000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphane 5 Silk",
+        "image":"Images/Phone5.png",
+        "company": "Apple",
+        "make": "Silver Grey Brand New",
+        "cost": "25000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphane 5 White",
+        "image":"Images/Phone6.png",
+        "company": "Apple",
+        "make": "White-black Brand New",
+        "cost": "25000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphane 7",
+        "image":"Images/Phone7.png",
+        "company": "Apple",
+        "make": "Pink-White Brand New",
+        "cost": "27000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphane8 mini",
+        "image":"Images/Phone8.png",
+        "company": "Apple",
+        "make": "red, blue,white Brands",
+        "cost": "25000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphoneX",
+        "image":"Images/Phone9.png",
+        "company": "Apple",
+        "make": "Black,Blue,Grey White Brands",
+        "cost": "35000",
+        "category":"Phone"
+    },
+    {
+        "name":"iphone9 mini",
+        "image":"Images/Phone10.png",
+        "company": "Apple",
+        "make": "White Brand New",
+        "cost": "35000",
+        "category":"Phone"
+    }
+]

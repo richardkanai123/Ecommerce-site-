@@ -1,0 +1,82 @@
+[
+    {
+        "name":"Nikon D56 Camera",
+        "image":"Images/Camera1.png",
+        "company": "Camera",
+        "make": "CM001 Brand New",
+        "cost": "20000",
+        "category":"Camera"
+    },
+    {
+        "name":"Canon ED6s ",
+        "image":"Images/Canon Camera1.png",
+        "company": "Canon",
+        "make": "EDS 5500 Brand New",
+        "cost": "60000",
+        "category":"Camera"
+    },
+    {
+        "name":"Sony 4K",
+        "image":"Images/HdCamera1.png",
+        "company": "Sony",
+        "make": "HD4K Brand New",
+        "cost": "90000",
+        "category":"Camera"
+    },
+    {
+        "name":"Canon 4K",
+        "image":"Images/HdCamera2 Canon.png",
+        "company": "Canon",
+        "make": "4K Brand New",
+        "cost": "97000",
+        "category":"Camera"
+    },
+    {
+        "name":"Nikon Camera",
+        "image":"Images/Nikon Camera1.png",
+        "company": "Nikon",
+        "make": "D5600 Brand New",
+        "cost": "45000",
+        "category":"Camera"
+    },
+    {
+        "name":"NikonD67 Camera",
+        "image":"Images/Nikon Camera2.png",
+        "company": "Nikon",
+        "make": " Brand New",
+        "cost": "37000",
+        "category":"Camera"
+    },
+    {
+        "name":"Portable Sony Camera",
+        "image":"Images/PortableCamera1.png",
+        "company": "Sony",
+        "make": "4X Portable Brand New",
+        "cost": "17000",
+        "category":"Camera"
+    },
+    {
+        "name":"Samsung Shoot",
+        "image":"Images/Samsung Camera1.png",
+        "company": "Samsung",
+        "make": "35ES Brand New",
+        "cost": "32000",
+        "category":"Camera"
+    },
+    {
+        "name":"Sony Full HD",
+        "image":"Images/SonyCamera1.png",
+        "company": "Sony",
+        "make": "EY1 Full HD Brand New",
+        "cost": "47770",
+        "category":"Camera"
+    },
+    {
+        "name":"Canon2 Camera",
+        "image":"Images/Nikon Camera2.png",
+        "company": "Canon",
+        "make": " Brand New",
+        "cost": "37000",
+        "category":"Camera"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "name":"RichTonics White",
+        "image":"Images/Headphone1.png",
+        "company": "RichTonics",
+        "make": " White E1 ",
+        "cost": "1500",
+        "category":"Headphone"
+    },
+    {
+        "name":"RichTonics black with Mic",
+        "image":"Images/Headphone2.png",
+        "company": "RichTonics",
+        "make": " Black 001 Brand New",
+        "cost": "1700",
+        "category":"Headphone"
+    },
+    {
+        "name":"Bull Reds",
+        "image":"Images/Headphone3.png",
+        "company": "Bull",
+        "make": "Red,Brand New",
+        "cost": "2000",
+        "category":"Headphone"
+    },
+    {
+        "name":"Bull Yellows",
+        "image":"Images/Headphone4.png",
+        "company": "Bull",
+        "make": "Yellow Brand New",
+        "cost": "2000",
+        "category":"Headphone"
+    },
+    {
+        "name":"Bull White Super",
+        "image":"Images/Headphone5.png",
+        "company": "Bull",
+        "make": "White Brand",
+        "cost": "2100",
+        "category":"Headphone"
+    },
+    {
+        "name":"Rich Blues",
+        "image":"Images/Headphone6.png",
+        "company": "Bull",
+        "make": "Blue 03S Brand New",
+        "cost": "900",
+        "category":"Headphone"
+    },
+    {
+        "name":"Black Fire ",
+        "image":"Images/Headphone7.png",
+        "company": "Bull",
+        "make": "Black Brand New",
+        "cost": "2900",
+        "category":"Headphone"
+    },
+    {
+        "name":"Girly Cherrys",
+        "image":"Images/Headphone8.png",
+        "company": "Bull",
+        "make": "Pink Brand New",
+        "cost": "2000",
+        "category":"Headphone"
+    },
+    {
+        "name":"Fer Racers Headphones",
+        "image":"Images/Headphone9.png",
+        "company": "Bull",
+        "make": "Red Brand New",
+        "cost": "5000",
+        "category":"Headphone"
+    },
+    {
+        "name":"OrangeRiches with Mic",
+        "image":"Images/Headphone10.png",
+        "company": "Bull",
+        "make": "Orange Brand New",
+        "cost": "7000",
+        "category":"Headphone"
+    }
+]

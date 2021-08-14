@@ -65,6 +65,8 @@ window.onclick = function(e){
     let NavClass = e.target.parentElement.classList
     if(NavClass == "Show"){
         Nav.classList.toggle('Show'); 
+}else{
+    console.log(" ");
 }
 }
 // give header background on scrolling
@@ -103,25 +105,34 @@ function CreateProductCard(Pimage, PName, PCompany, PMake, PCost){
     CardsHolder.append(newCard);
 }
 
+
+
 // Displaying Products depending on the category the user wants
-// ProductsCategory.addEventListener('change', ()=>{
-//     console.log(ProductsCategory.value);
-//     let categoryChoice = ProductsCategory.value;
-//         fetch("./products.json")
-//         .then(response => response.json())
-//         .then(data =>{
-//             data.map(data=>{
-//             if(data.category === categoryChoice){
-//                 CardsHolder.innerHTML = "";
-//                 let FilteredData = data;
-//                 console.table(FilteredData);
-//                 // FilteredData.map(FilteredData=>{
-//                 //     // create card for each data 
-//                 //     CreateProductCard(FilteredData.image, FilteredData.name, FilteredData.company, FilteredData.make, FilteredData.cost)
-//                 // })
-//             }   
-//         })
-        
-//     });
+ProductsCategory.addEventListener('change', ()=>{
+    CardsHolder.innerHTML = "";
+    if((ProductsCategory.value) === "All"){
+        GetProducts();
+    }else{
+    SortByCategory(ProductsCategory.value)
+    }
+
+    // CardsHolder.style.height = "unset";
+})
+
+
+// CreateCardforArray(SortByCategory("Computer"))
+
+function SortByCategory(userChoice){
+    let source = `./${userChoice}.json`
+    console.log(source);
+    fetch(source)
+    .then(response => response.json())
+    .then(data =>{
+        console.log(data);
+        data.map(data=>{
+            CreateProductCard(data.image, data.name, data.company, data.make, data.cost)
+        })
+    })
     
-// })
+}
+

@@ -1,0 +1,74 @@
+[
+    {
+        "name":"Apple Desktop",
+        "image":"Images/ComputerA1.png",
+        "company": "Apple",
+        "make": "Desktop Monitor",
+        "cost": "66900",
+        "category":"Computer"
+    },
+    {
+        "name":"Apple MiniDesktop",
+        "image":"Images/ComputerA2.png",
+        "company": "Apple",
+        "make": "Desktop Monitor",
+        "cost": "60900",
+        "category":"Computer"
+    },
+    {
+        "name":"Mackbook",
+        "image":"Images/ComputerA3.png",
+        "company": "Apple",
+        "make": "Mackbook AZ1",
+        "cost": "89900",
+        "category":"Computer"
+    },
+    {
+        "name":"Abus Gaming Computer",
+        "image":"Images/ComputerG1.png",
+        "company": "Abus",
+        "make": "8th Gen Blue Brand",
+        "cost": "55500",
+        "category":"Computer"
+    },
+    {
+        "name":"IGG Gaming Computer",
+        "image":"Images/ComputerG2.png",
+        "company": "IGG",
+        "make": "8th Gen Red Brand",
+        "cost": "56900",
+        "category":"Computer"
+    },
+    {
+        "name":"RichTonics Gaming Computer",
+        "image":"Images/ComputerG3.png",
+        "company": "Richtonics",
+        "make": "6th Gen Gaming Computer",
+        "cost": "44999",
+        "category":"Computer"
+    },
+    {
+        "name":"RichTonicsHC Gaming Computer",
+        "image":"Images/ComputerG4.png",
+        "company": "Richtonics",
+        "make": "6th Gen GamingHC Computer",
+        "cost": "47999",
+        "category":"Computer"
+    },
+    {
+        "name":"RichTonicsRD Gaming Computer",
+        "image":"Images/ComputerG5.png",
+        "company": "Richtonics",
+        "make": "6th Gen Red Gaming Computer",
+        "cost": "41999",
+        "category":"Computer"
+    },
+    {
+        "name":"RichTonics Water Cooled Computer",
+        "image":"Images/ComputerG6.png",
+        "company": "Richtonics",
+        "make": "9th Gen UltraGaming Computer",
+        "cost": "74999",
+        "category":"Computer"
+    }
+]
