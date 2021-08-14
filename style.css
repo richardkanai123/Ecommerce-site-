@@ -17,6 +17,7 @@
     --btn-padding: 0 0.5rem;
     --btn-font: 1rem 500;
     --card-bg-color:#0a91b3bd;
+    --cart-bg-color:#032961 ;
 }
 
 html{
@@ -388,6 +389,96 @@ ol li{
     margin: 0.25rem;
 }
 
+.CartDiv{
+    position: absolute;
+    width: 10%;
+    height: 90vh;
+    top: 10vh;
+    right: -50%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    background: var(--cart-bg-color);
+    z-index: -10;
+    padding: 0.5rem;
+    transition: ease;
+    opacity: 0.1;
+    transition: all 3s ease 200ms;
+    transform-style:preserve-3d;
+}
+
+.CartDiv.Show{
+    width: 90%;
+    display: flex;
+    opacity: 1.0;
+    z-index: 10;
+    right: 5%;
+    pointer-events: all;
+
+}
+
+.CartHeader{
+    width: 100%;
+    height: 10%;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    border-bottom: solid;
+}
+
+.CartItem{
+    min-width: 90%;
+    max-width: 100%;
+    display: flex;
+    min-height: 100px;
+    max-height: 150px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    color: var(--light2-color);
+}
+
+
+.CartItem img{
+    width: 100px;
+    height: 100px;
+    margin:0 0.5rem ;
+}
+
+.CartItem h3{
+    margin:0 0.5rem ;
+    color: var(--light2-color);
+}
+
+
+.CartItem section{
+    display: flex;
+    margin: 0 0.25rem;
+    height: 100%;
+}
+
+.CartItem section input{
+    width: 5rem;
+    margin: 0 0.25rem;
+    border-radius:5px;
+    outline: none;
+    border: none;
+    background: var(--mid-color);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.CartItem button{
+    width: 5rem;
+    font: unset;
+}
+
+.CartItem .btn{
+    width: fit-content;
+}
+
 /* ////////////////////////////////////////////////////////// */
 /* media queries */
 /* ///////////////////////////////////////////////////////////////////////////// */
@@ -429,6 +520,11 @@ ol li{
         text-align: center;
     }
 
+    .CartDiv{
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
 
 
     
@@ -615,6 +711,7 @@ ol li{
         flex-direction: column;
         width: 99%;
         align-items:center;
+        margin-top: unset;
     }
     
     
@@ -677,6 +774,37 @@ ol li{
     
     ol li{
         margin: 0.25rem;
+    }
+
+    .CartDiv{
+        min-width: 99%;
+        max-width: 100%;
+        background: chocolate;
+    }
+
+    .CartItem{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-height: fit-content;
+        padding:0.25rem 0.75rem;
+        margin: 0.5rem 0;
+        justify-content: space-evenly;
+        /* border:solid; */
+
+    }
+
+    .CartItem section{
+        margin: unset;
+        padding: unset;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .CartItem button:hover, .CartItemn .btn:hover{
+        margin: 0.5rem;
     }
 
 }

@@ -5,6 +5,30 @@ const MenuBtn = document.querySelector("#MenuBtn")
 const Nav = document.querySelector("nav")
 const CardsHolder = document.querySelector(".CardsHolder")
 const ProductsCategory = document.querySelector("#ProductsCategory")
+const ToggleCartbtn = document.querySelector("#Cartbtn")
+const CartDiv = document.querySelector(".CartDiv")
+
+
+// navigation
+
+// menu btn for small screens
+MenuBtn.addEventListener("click", ()=>{
+    Nav.classList.toggle('Show'); 
+})
+
+// hides nav when one clicks outside it
+window.onclick = function(e){
+    let NavClass = e.target.parentElement.classList
+    if(NavClass == "Show"){
+        Nav.classList.toggle('Show'); 
+    }
+}
+
+
+// Toggle Cart
+ToggleCartbtn.addEventListener("click",()=>{
+    CartDiv.classList.toggle("Show")
+} )
 
 
 // animate IntroText
@@ -16,12 +40,6 @@ ScrollReveal().reveal('form', { delay: 1000});
 ScrollReveal().reveal('.SocialLinks', { delay: 1000});
 ScrollReveal().reveal('.Links', { delay: 700});
 ScrollReveal().reveal('#About', { delay: 900});
-
-
-
-
-
-
 
 // display image changer every 5s
 const Covers = [
@@ -44,23 +62,7 @@ const ChangeImage = (images, container, step) => {
 ChangeImage(Covers, D_image, 5000)
 
 
-// menu btn for small screens
 
-MenuBtn.addEventListener("click", ()=>{
-    Nav.classList.toggle('Show'); 
-})
-
-window.onclick = function(e){
-    let NavClass = e.target.parentElement.classList
-    if(NavClass == "Show"){
-        Nav.classList.toggle('Show'); 
-}else{
-    console.log(" ");
-}
-}
-// give header background on scrolling
-
-// window.onscroll = document.querySelector("header").classList.add("Scrolled")
 
 
 // json fetching
@@ -94,8 +96,6 @@ function CreateProductCard(Pimage, PName, PCompany, PMake, PCost){
     CardsHolder.append(newCard);
 }
 
-
-
 // Displaying Products depending on the category the user wants
 ProductsCategory.addEventListener('change', ()=>{
     CardsHolder.innerHTML = "";
@@ -106,7 +106,6 @@ ProductsCategory.addEventListener('change', ()=>{
     }
 
 })
-
 
 function SortByCategory(userChoice){
     let source = `./${userChoice}.json`
@@ -119,6 +118,4 @@ function SortByCategory(userChoice){
             CreateProductCard(data.image, data.name, data.company, data.make, data.cost)
         })
     })
-    
 }
-
