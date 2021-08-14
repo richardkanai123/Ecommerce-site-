@@ -5,17 +5,6 @@ const MenuBtn = document.querySelector("#MenuBtn")
 const Nav = document.querySelector("nav")
 const CardsHolder = document.querySelector(".CardsHolder")
 const ProductsCategory = document.querySelector("#ProductsCategory")
-/// animations
-// anime js 1. Display Image
-// anime({
-//     targets: '.DisplayImage',
-//     border: ' solid #FFF',
-//     borderRadius: ['0%', '50%', '0%'],
-//     autoplay: true,
-//     loop: true,
-//     duration: 6000,
-//     easing: 'easeInOutQuad'
-// });
 
 
 // animate IntroText
@@ -116,11 +105,8 @@ ProductsCategory.addEventListener('change', ()=>{
     SortByCategory(ProductsCategory.value)
     }
 
-    // CardsHolder.style.height = "unset";
 })
 
-
-// CreateCardforArray(SortByCategory("Computer"))
 
 function SortByCategory(userChoice){
     let source = `./${userChoice}.json`
