@@ -14,7 +14,7 @@
 <body>
     <header>
         <div  id="logo" >
-            <img href="#" src="./Images/logo.png" alt="logo">
+            <img href="#Home" src="./Images/logo.png" alt="logo">
         </div>
 
         <nav>
@@ -42,7 +42,7 @@
 
             <div class="HomeBtns">
                 <a class="btn" href="#Products">Products</a>
-                <a class="btn" href="#Contact">Talk to Us</a>
+                <a class="btn light" href="#Contact">Talk to Us</a>
             </div>
 
         </div>
@@ -146,33 +146,24 @@
         </div>
 
         <div class="CartItemsHolder">
-
-            <div class="CartItem">
+            <!-- cart Item start -->
+            <!-- <div class="CartItem">
                 <img src="./Images/ComputerA1.png" alt="image">
-                <h3 class="ItemTitle">Gaming Computer</h3>
                 <section>
-                    <i class="bi bi-file-minus-fill btn"></i>
-                    <input type="number" name="Quantity" id="Quantity">
-                    <i class="bi bi-file-plus-fill btn"></i>
-                    <input type="number" name="ItemCost" id="ItemCost" readonly>
+                    <i class="bi bi-file-minus-fill" id="AddQuantity"></i>
+                    <span name="Quantity" id="Quantity" contenteditable="true">1</span>
+                    <i class="bi bi-file-plus-fill" id="ReduceQuantity"></i>
+                    <span name="ItemCost" id="ItemCost" contenteditable="true">2300</span>
                 </section>
-                <button id="RemoveItemBtn" class="btn">Remove</button>
-
-            </div>
-            <div class="CartItem">
-                <img src="./Images/ComputerA2.png" alt="image">
-                <h3 class="ItemTitle">Gaming Computer</h3>
-                <section>
-                    <i class="bi bi-file-minus-fill btn"></i>
-                    <input type="number" name="Quantity" id="Quantity">
-                    <i class="bi bi-file-plus-fill btn"></i>
-                    <input type="number" name="ItemCost" id="ItemCost" readonly>
-                </section>
-                <button id="RemoveItemBtn" class="btn">Remove</button>
-
-            </div>
+                <i class="bi bi-file-x-fill" id="CartRemoveBtn"></i>
+            </div> -->
+          <!-- cart item end -->
             
-
+          <!-- Cart Footer -->
+          
+        </div>
+        <div class="cartFooter">
+            <h3>Your Total: <span id="CartTotals"></span></h3>
         </div>
     </div>
 
