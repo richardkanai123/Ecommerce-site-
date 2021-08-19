@@ -584,6 +584,8 @@ ol li{
         position: fixed;
         margin-bottom: unset;
         z-index: 5;
+        left: 0;
+        right: 0;
      }
 
      header.Scrolled{
