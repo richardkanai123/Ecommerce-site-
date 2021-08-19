@@ -573,7 +573,6 @@ ol li{
      body{
         position: relative;
         width: 100vw;
-        border: solid;
      }
 
      #logo{
@@ -581,10 +580,9 @@ ol li{
      }
      
      header{
-        width: 100vw;
+        width: 100%;
         position: fixed;
         margin-bottom: unset;
-        left: 0;
         z-index: 5;
      }
 
@@ -647,6 +645,7 @@ ol li{
         display: unset;
         pointer-events: all;
         cursor: pointer;
+        color: #000;
     }
 
     .Home{
@@ -655,7 +654,8 @@ ol li{
         padding-top: 1.0rem;
         align-items: center;
         height: unset;
-        max-width: 99%;
+        min-width: 99%;
+        max-width: 100%;
         border-bottom: none;
     }
 
